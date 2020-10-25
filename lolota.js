@@ -30,6 +30,7 @@ function setup() {
   textAlign(CENTER, CENTER);
   phrase = random(toBeCompleted);
   speech = new p5.Speech();
+  speech.setLang("pt-BR");
 
   while (options.length < 5) {
     choice = random(toComplete);
