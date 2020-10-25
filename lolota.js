@@ -10,7 +10,7 @@ function preload() {
   toBeCompleted = loadStrings("frases.txt");
   toComplete = loadStrings("preenchimento.txt");
   for (let i = 1; i <= 10; i++){
-    imgs.push(loadImage("https://cors-anywhere.herokuapp.com/?github.com/LolotaLots/LolotaLots.github.io/blob/main/imgs/imgs/desenho-bobo" + str(i) + ".png"));
+    imgs.push(loadImage("./imgs/imgs/desenho-bobo" + str(i) + ".png"));
   }
 
   img = random(imgs);
